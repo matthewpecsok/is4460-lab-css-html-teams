@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% block title %}Petal & Bloom Flower Boutique{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'boutique/style.css' %}" />
+</head>
+<body>
+
+<header>
+    <h1>🌸 Petal &amp; Bloom</h1>
+    <p class="tagline">Artisan Flower Arrangements, Crafted with Love</p>
+</header>
+
+<nav>
+    <a href="{% url 'boutique:home' %}">Home</a>
+    <a href="{% url 'boutique:home' %}">Shop All</a>
+</nav>
+
+<main>
+    {% block content %}{% endblock %}
+</main>
+
+<footer>
+    <p>&copy; 2024 Petal &amp; Bloom Flower Boutique. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
