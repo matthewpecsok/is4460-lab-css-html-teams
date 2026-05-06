@@ -1,0 +1,13 @@
+{% extends "boutique/base.html" %}
+
+{% block title %}Ocean Breeze - Petal &amp; Bloom{% endblock %}
+
+{% block content %}
+<div class="product-detail">
+    <h2>Ocean Breeze</h2>
+    <p class="price">$50.00</p>
+    <p class="description">Cool blue hydrangeas, soft white lilies, and sea-green succulents come together in a coastal palette that soothes the senses and calms the mind. Accented with silvery dusty miller and delicate blue thistle, Ocean Breeze evokes the feeling of standing at the shore with a gentle salt-scented wind in your hair. Presented in a driftwood-textured container, this arrangement suits beach lovers, nautical-themed spaces, or anyone craving a moment of serenity.</p>
+    <p class="arranged-by">Arranged by: <strong>TBD</strong></p>
+    <a class="back-link" href="{% url 'boutique:home' %}">&larr; Back to All Arrangements</a>
+</div>
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends "boutique/base.html" %}
+
+{% block title %}Fiesta Bloom - Petal &amp; Bloom{% endblock %}
+
+{% block content %}
+<div class="product-detail">
+    <h2>Fiesta Bloom</h2>
+    <p class="price">$43.00</p>
+    <p class="description">Red, orange, yellow, and magenta gerberas, marigolds, and zinnias explode with colour in an arrangement inspired by the vibrant festivals of Mexico. Fiesta Bloom is bold, lively, and impossible to ignore. Nestled in a hand-painted talavera-style ceramic pot, it brings festive energy to Cinco de Mayo parties, Day of the Dead altars, birthday tables, or any space that needs an injection of unapologetic colour and cultural spirit.</p>
+    <p class="arranged-by">Arranged by: <strong>TBD</strong></p>
+    <a class="back-link" href="{% url 'boutique:home' %}">&larr; Back to All Arrangements</a>
+</div>
+{% endblock %}

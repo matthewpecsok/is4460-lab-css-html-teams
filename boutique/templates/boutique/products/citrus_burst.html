@@ -1,0 +1,13 @@
+{% extends "boutique/base.html" %}
+
+{% block title %}Citrus Burst - Petal &amp; Bloom{% endblock %}
+
+{% block content %}
+<div class="product-detail">
+    <h2>Citrus Burst</h2>
+    <p class="price">$44.00</p>
+    <p class="description">Zingy lemon-yellow tulips, bright lime-green button poms, vivid orange gerberas, and tangy kumquat branches create an arrangement as energising as freshly squeezed juice. Citrus Burst is designed to inject life and optimism into any environment — from kitchen tables to office reception desks. Housed in a striped ceramic pitcher in lemon and white, it is an uplifting gift for anyone who needs a dose of sunshine and positive energy.</p>
+    <p class="arranged-by">Arranged by: <strong>TBD</strong></p>
+    <a class="back-link" href="{% url 'boutique:home' %}">&larr; Back to All Arrangements</a>
+</div>
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends "boutique/base.html" %}
+
+{% block title %}Rose Royale - Petal &amp; Bloom{% endblock %}
+
+{% block content %}
+<div class="product-detail">
+    <h2>Rose Royale</h2>
+    <p class="price">$70.00</p>
+    <p class="description">Fifty premium long-stemmed red roses arranged in a tight, opulent dome make an unmistakable declaration of love and devotion. Rose Royale uses only the finest garden roses sourced from premier growers, ensuring maximum bloom size, rich colour, and an intoxicating fragrance. Delivered in an oversized black hatbox lined with red satin, this arrangement is reserved for grand romantic gestures, milestone anniversaries, or when only the very best will convey your feelings.</p>
+    <p class="arranged-by">Arranged by: <strong>TBD</strong></p>
+    <a class="back-link" href="{% url 'boutique:home' %}">&larr; Back to All Arrangements</a>
+</div>
+{% endblock %}

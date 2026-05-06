@@ -1,0 +1,13 @@
+{% extends "boutique/base.html" %}
+
+{% block title %}Blushing Bride - Petal &amp; Bloom{% endblock %}
+
+{% block content %}
+<div class="product-detail">
+    <h2>Blushing Bride</h2>
+    <p class="price">$75.00</p>
+    <p class="description">Luxurious ivory garden roses, feathery white pampas grass plumes, champagne spray roses, and delicate pearl pins compose an arrangement fit for royalty. Blushing Bride is meticulously crafted for weddings, engagement parties, and bridal showers where only the finest will do. Arranged in a crystal-clear vase adorned with pearl-tipped pins, this arrangement exudes timeless romance and sophistication that photographs magnificently in every lighting condition.</p>
+    <p class="arranged-by">Arranged by: <strong>TBD</strong></p>
+    <a class="back-link" href="{% url 'boutique:home' %}">&larr; Back to All Arrangements</a>
+</div>
+{% endblock %}

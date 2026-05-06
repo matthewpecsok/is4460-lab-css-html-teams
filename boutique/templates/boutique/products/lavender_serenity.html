@@ -1,0 +1,13 @@
+{% extends "boutique/base.html" %}
+
+{% block title %}Lavender Serenity - Petal &amp; Bloom{% endblock %}
+
+{% block content %}
+<div class="product-detail">
+    <h2>Lavender Serenity</h2>
+    <p class="price">$38.00</p>
+    <p class="description">Fragrant bundles of true lavender are paired with soft purple statice, lilac stock, and wispy white gypsophila to create a calming, aromatic bouquet. Lavender Serenity is known for its stress-relieving scent and is often chosen as a wellness gift for someone going through a difficult time or needing a moment of peace. Presented in a woven basket with a purple velvet ribbon, it doubles as a charming home décor piece long after the blooms fade.</p>
+    <p class="arranged-by">Arranged by: <strong>TBD</strong></p>
+    <a class="back-link" href="{% url 'boutique:home' %}">&larr; Back to All Arrangements</a>
+</div>
+{% endblock %}

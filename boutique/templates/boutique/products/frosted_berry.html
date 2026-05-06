@@ -1,0 +1,13 @@
+{% extends "boutique/base.html" %}
+
+{% block title %}Frosted Berry - Petal &amp; Bloom{% endblock %}
+
+{% block content %}
+<div class="product-detail">
+    <h2>Frosted Berry</h2>
+    <p class="price">$51.00</p>
+    <p class="description">White spray roses, iridescent dusty miller, clusters of silver-frosted berries, and pale blue delphiniums evoke the crystalline beauty of a winter morning when the world is still and frost covers every branch. Frosted Berry is elegant and serene, ideally suited to winter weddings, holiday tables, and as a sophisticated gift during the festive season. Arranged in a silver-lustre mercury glass vase, it catches and scatters candlelight in the most magical way.</p>
+    <p class="arranged-by">Arranged by: <strong>TBD</strong></p>
+    <a class="back-link" href="{% url 'boutique:home' %}">&larr; Back to All Arrangements</a>
+</div>
+{% endblock %}

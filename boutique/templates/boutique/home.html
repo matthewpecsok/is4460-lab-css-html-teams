@@ -1,6 +1,6 @@
 {% extends "boutique/base.html" %}
 
-{% block title %}Shop – Petal &amp; Bloom{% endblock %}
+{% block title %}Shop - Petal &amp; Bloom{% endblock %}
 
 {% block content %}
 <section class="intro">
@@ -10,12 +10,155 @@
 </section>
 
 <div class="product-grid">
-    {% for product in products %}
     <article class="product-card">
-        <h3>{{ product.name }}</h3>
-        <span class="price">{{ product.price }}</span>
-        <a class="btn" href="{% url 'boutique:product_detail' product.id %}">View Details</a>
+        <h3>Sunrise Bliss</h3>
+        <span class="price">$45.00</span>
+        <a class="btn" href="{% url 'boutique:sunrise_bliss' %}">View Details</a>
     </article>
-    {% endfor %}
+    <article class="product-card">
+        <h3>Midnight Romance</h3>
+        <span class="price">$60.00</span>
+        <a class="btn" href="{% url 'boutique:midnight_romance' %}">View Details</a>
+    </article>
+    <article class="product-card">
+        <h3>Spring Meadow</h3>
+        <span class="price">$40.00</span>
+        <a class="btn" href="{% url 'boutique:spring_meadow' %}">View Details</a>
+    </article>
+    <article class="product-card">
+        <h3>Ocean Breeze</h3>
+        <span class="price">$50.00</span>
+        <a class="btn" href="{% url 'boutique:ocean_breeze' %}">View Details</a>
+    </article>
+    <article class="product-card">
+        <h3>Enchanted Forest</h3>
+        <span class="price">$55.00</span>
+        <a class="btn" href="{% url 'boutique:enchanted_forest' %}">View Details</a>
+    </article>
+    <article class="product-card">
+        <h3>Pastel Dream</h3>
+        <span class="price">$42.00</span>
+        <a class="btn" href="{% url 'boutique:pastel_dream' %}">View Details</a>
+    </article>
+    <article class="product-card">
+        <h3>Tropical Paradise</h3>
+        <span class="price">$65.00</span>
+        <a class="btn" href="{% url 'boutique:tropical_paradise' %}">View Details</a>
+    </article>
+    <article class="product-card">
+        <h3>Lavender Serenity</h3>
+        <span class="price">$38.00</span>
+        <a class="btn" href="{% url 'boutique:lavender_serenity' %}">View Details</a>
+    </article>
+    <article class="product-card">
+        <h3>Golden Harvest</h3>
+        <span class="price">$48.00</span>
+        <a class="btn" href="{% url 'boutique:golden_harvest' %}">View Details</a>
+    </article>
+    <article class="product-card">
+        <h3>Cherry Blossom</h3>
+        <span class="price">$52.00</span>
+        <a class="btn" href="{% url 'boutique:cherry_blossom' %}">View Details</a>
+    </article>
+    <article class="product-card">
+        <h3>Sunset Glow</h3>
+        <span class="price">$47.00</span>
+        <a class="btn" href="{% url 'boutique:sunset_glow' %}">View Details</a>
+    </article>
+    <article class="product-card">
+        <h3>Winter Wonderland</h3>
+        <span class="price">$58.00</span>
+        <a class="btn" href="{% url 'boutique:winter_wonderland' %}">View Details</a>
+    </article>
+    <article class="product-card">
+        <h3>Blushing Bride</h3>
+        <span class="price">$75.00</span>
+        <a class="btn" href="{% url 'boutique:blushing_bride' %}">View Details</a>
+    </article>
+    <article class="product-card">
+        <h3>Wildflower Whisper</h3>
+        <span class="price">$36.00</span>
+        <a class="btn" href="{% url 'boutique:wildflower_whisper' %}">View Details</a>
+    </article>
+    <article class="product-card">
+        <h3>Moody Mauve</h3>
+        <span class="price">$53.00</span>
+        <a class="btn" href="{% url 'boutique:moody_mauve' %}">View Details</a>
+    </article>
+    <article class="product-card">
+        <h3>Honeybee Garden</h3>
+        <span class="price">$39.00</span>
+        <a class="btn" href="{% url 'boutique:honeybee_garden' %}">View Details</a>
+    </article>
+    <article class="product-card">
+        <h3>Rose Royale</h3>
+        <span class="price">$70.00</span>
+        <a class="btn" href="{% url 'boutique:rose_royale' %}">View Details</a>
+    </article>
+    <article class="product-card">
+        <h3>Citrus Burst</h3>
+        <span class="price">$44.00</span>
+        <a class="btn" href="{% url 'boutique:citrus_burst' %}">View Details</a>
+    </article>
+    <article class="product-card">
+        <h3>Midnight Orchid</h3>
+        <span class="price">$62.00</span>
+        <a class="btn" href="{% url 'boutique:midnight_orchid' %}">View Details</a>
+    </article>
+    <article class="product-card">
+        <h3>Peony Paradise</h3>
+        <span class="price">$68.00</span>
+        <a class="btn" href="{% url 'boutique:peony_paradise' %}">View Details</a>
+    </article>
+    <article class="product-card">
+        <h3>Desert Rose</h3>
+        <span class="price">$46.00</span>
+        <a class="btn" href="{% url 'boutique:desert_rose' %}">View Details</a>
+    </article>
+    <article class="product-card">
+        <h3>Garden Party</h3>
+        <span class="price">$49.00</span>
+        <a class="btn" href="{% url 'boutique:garden_party' %}">View Details</a>
+    </article>
+    <article class="product-card">
+        <h3>Frosted Berry</h3>
+        <span class="price">$51.00</span>
+        <a class="btn" href="{% url 'boutique:frosted_berry' %}">View Details</a>
+    </article>
+    <article class="product-card">
+        <h3>Sunflower Fields</h3>
+        <span class="price">$35.00</span>
+        <a class="btn" href="{% url 'boutique:sunflower_fields' %}">View Details</a>
+    </article>
+    <article class="product-card">
+        <h3>Lush Lotus</h3>
+        <span class="price">$57.00</span>
+        <a class="btn" href="{% url 'boutique:lush_lotus' %}">View Details</a>
+    </article>
+    <article class="product-card">
+        <h3>Fiesta Bloom</h3>
+        <span class="price">$43.00</span>
+        <a class="btn" href="{% url 'boutique:fiesta_bloom' %}">View Details</a>
+    </article>
+    <article class="product-card">
+        <h3>Ivory Elegance</h3>
+        <span class="price">$66.00</span>
+        <a class="btn" href="{% url 'boutique:ivory_elegance' %}">View Details</a>
+    </article>
+    <article class="product-card">
+        <h3>Rainbow Riot</h3>
+        <span class="price">$41.00</span>
+        <a class="btn" href="{% url 'boutique:rainbow_riot' %}">View Details</a>
+    </article>
+    <article class="product-card">
+        <h3>Secret Garden</h3>
+        <span class="price">$54.00</span>
+        <a class="btn" href="{% url 'boutique:secret_garden' %}">View Details</a>
+    </article>
+    <article class="product-card">
+        <h3>Azure Dream</h3>
+        <span class="price">$56.00</span>
+        <a class="btn" href="{% url 'boutique:azure_dream' %}">View Details</a>
+    </article>
 </div>
 {% endblock %}
